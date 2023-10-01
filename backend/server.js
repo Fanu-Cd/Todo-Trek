@@ -1,5 +1,5 @@
 const mongoose = require('mongoose'); // Mongoose for communicating with mongoDB
-const DataModel=require('./models/data') // Mongoose Model to store Payment Details(go to the file path to see)
+const DataModel=require('./models/data') // Mongoose Model to store todos
 const express=require('express')
 const bodyParser=require('body-parser')
 const port=3001
